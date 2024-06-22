@@ -105,4 +105,8 @@ router.patch("/:id", async (req, res) => {
     }
 });
 
+router.get('/try', (req, res) => {
+    res.send('Hello World with try');
+});
+
 module.exports = router;
